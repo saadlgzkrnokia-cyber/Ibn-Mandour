@@ -1,16 +1,39 @@
+"use client"
+
 import { useTranslations } from "next-intl"
-import { redirect } from "next/navigation"
-import { auth } from "@/lib/auth"
+import { signIn } from "next-auth/react"
+import { useState } from "react"
+import { useRouter } from "next/navigation"
 
-export default async function LoginPage() {
-  const session = await auth()
-  if (session?.user) redirect("/dashboard")
-
-  return <LoginForm />
-}
-
-function LoginForm() {
+export default function LoginPage() {
   const t = useTranslations("auth")
+  const router = useRouter()
+  const [error, setError] = useState("")
+  const [loading, setLoading] = useState(false)
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    setLoading(true)
+    setError("")
+
+    const form = new FormData(e.currentTarget)
+    const email = form.get("email") as string
+    const password = form.get("password") as string
+
+    const result = await signIn("credentials", {
+      email,
+      password,
+      redirect: false,
+    })
+
+    if (result?.error) {
+      setError("Email ou mot de passe incorrect")
+      setLoading(false)
+    } else {
+      router.push("/dashboard")
+      router.refresh()
+    }
+  }
 
   return (
     <main className="min-h-screen flex items-center justify-center bg-[#050505] p-4">
@@ -35,7 +58,13 @@ function LoginForm() {
           <p className="text-sm text-gray-500">{t("loginTitle")}</p>
         </div>
 
-        <form action="/api/auth/callback/credentials" method="POST" className="space-y-5">
+        <form onSubmit={handleSubmit} className="space-y-5">
+          {error && (
+            <div className="p-3 bg-red-900/20 border border-red-500/30 rounded-xl text-red-400 text-sm text-center">
+              {error}
+            </div>
+          )}
+
           <div>
             <label className="flex items-center gap-2 text-sm font-medium text-[#d4b45a] mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#00884a]" />
@@ -70,11 +99,7 @@ function LoginForm() {
 
           <div className="flex items-center justify-between text-sm">
             <label className="flex items-center gap-2 text-gray-500 cursor-pointer">
-              <input
-                type="checkbox"
-                defaultChecked
-                className="accent-[#006233] w-4 h-4"
-              />
+              <input type="checkbox" defaultChecked className="accent-[#006233] w-4 h-4" />
               {t("rememberMe")}
             </label>
             <a href="#" className="text-[#00884a] hover:text-[#d4b45a] transition-colors">
@@ -84,9 +109,10 @@ function LoginForm() {
 
           <button
             type="submit"
+            disabled={loading}
             className="w-full py-3.5 bg-gradient-to-r from-[#8b1c20] to-[#6e1417] text-white rounded-xl font-semibold
                        relative overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-[rgba(0,98,51,0.2)]
-                       hover:-translate-y-0.5 active:translate-y-0
+                       hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-60
                        before:absolute before:inset-0 before:bg-gradient-to-r before:from-[#006233] before:to-[#00884a]
                        before:opacity-0 before:transition-opacity before:duration-300
                        hover:before:opacity-100"
@@ -97,23 +123,10 @@ function LoginForm() {
                 <polyline points="10 17 15 12 10 7" />
                 <line x1="15" y1="12" x2="3" y2="12" />
               </svg>
-              {t("login")}
+              {loading ? "..." : t("login")}
             </span>
           </button>
         </form>
-
-        <div className="flex items-center gap-3 my-6 opacity-20">
-          <span className="flex-1 h-px bg-gradient-to-r from-transparent via-[#d4b45a] to-transparent" />
-          <span className="w-2 h-2 rotate-45 bg-[#00884a]" />
-          <span className="flex-1 h-px bg-gradient-to-r from-transparent via-[#d4b45a] to-transparent" />
-        </div>
-
-        <p className="text-center text-sm text-gray-500">
-          {t("noAccount")}{" "}
-          <a href="/inscription" className="text-[#d4b45a] font-semibold hover:text-[#00884a] transition-colors">
-            {t("signUp")}
-          </a>
-        </p>
       </div>
     </main>
   )
