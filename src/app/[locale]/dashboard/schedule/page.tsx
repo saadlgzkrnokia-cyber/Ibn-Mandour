@@ -17,6 +17,7 @@ const days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"
 
 export default function SchedulePage() {
   const t = useTranslations("schedule")
+  const c = useTranslations("common")
   const [entries, setEntries] = useState<ScheduleEntry[]>([])
   const [loading, setLoading] = useState(true)
 
@@ -37,10 +38,10 @@ export default function SchedulePage() {
       <h1 className="text-2xl font-serif text-[#d4b45a] mb-8">{t("title")}</h1>
 
       {loading ? (
-        <p className="text-gray-500">{t("loading")}</p>
+        <p className="text-gray-500">{c("loading")}</p>
       ) : entries.length === 0 ? (
         <div className="text-center py-16 bg-[#0f0f0f] border border-[#1c1c1c] rounded-xl">
-          <p className="text-gray-500">{t("noData")}</p>
+          <p className="text-gray-500">{c("noData")}</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">

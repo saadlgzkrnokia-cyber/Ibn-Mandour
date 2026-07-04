@@ -18,6 +18,7 @@ type Grade = {
 
 export default function GradesPage() {
   const t = useTranslations("grades")
+  const c = useTranslations("common")
   const [grades, setGrades] = useState<Grade[]>([])
   const [loading, setLoading] = useState(true)
 
@@ -47,10 +48,10 @@ export default function GradesPage() {
       </div>
 
       {loading ? (
-        <p className="text-gray-500">{t("loading")}</p>
-      ) : grades.length === 0 ? (
-        <div className="text-center py-16 bg-[#0f0f0f] border border-[#1c1c1c] rounded-xl">
-          <p className="text-gray-500">{t("noData")}</p>
+          <p className="text-gray-500">{c("loading")}</p>
+     ) : grades.length === 0 ? (
+          <div className="text-center py-16 bg-[#0f0f0f] border border-[#1c1c1c] rounded-xl">
+            <p className="text-gray-500">{c("noData")}</p>
         </div>
       ) : (
         <div className="space-y-3">
