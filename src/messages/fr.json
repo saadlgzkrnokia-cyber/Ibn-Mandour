@@ -12,7 +12,10 @@
     "home": "Accueil",
     "login": "Connexion",
     "logout": "Déconnexion",
-    "profile": "Profil"
+    "profile": "Profil",
+    "about": "À propos",
+    "paths": "Parcours",
+    "contact": "Contact"
   },
   "auth": {
     "login": "Connexion",
@@ -148,5 +151,110 @@
     "upcoming": "À venir",
     "past": "Passées",
     "ended": "Terminée"
+  },
+  "landing": {
+    "header": {
+      "title": "Lycée Ibn Mandour"
+    },
+    "hero": {
+      "badge": "Établissement d'Excellence · Meknès",
+      "title": "Lycée Ibn Mandour",
+      "subtitle": "Depuis 1954, l'excellence éducative à Meknès — un établissement d'enseignement public d'exception, alliant tradition et modernité.",
+      "cta": "Espace Élèves & Parents",
+      "learnMore": "Découvrir l'établissement"
+    },
+    "stats": {
+      "years": "Années d'excellence",
+      "students": "Élèves formés",
+      "success": "Réussite au Bac",
+      "staff": "Enseignants qualifiés"
+    },
+    "about": {
+      "title": "Qui sommes-nous ?",
+      "text1": "Fondé en 1954, le Lycée Ibn Mandour est un établissement public d'exception situé au cœur de Meknès. Nous accueillons plus de 2 000 élèves de la maternelle au lycée, dans un cadre d'apprentissage exigeant et bienveillant.",
+      "text2": "Notre mission est de former les citoyens de demain en conjuguant excellence académique, épanouissement personnel et valeurs citoyennes. Avec un taux de réussite au baccalauréat de 99 %, notre établissement figure parmi les meilleurs lycées du Maroc."
+    },
+    "paths": {
+      "title": "Nos Parcours",
+      "subtitle": "Un accompagnement sur mesure de la maternelle au baccalauréat",
+      "preschool": {
+        "name": "Préscolaire",
+        "desc": "Éveil et socialisation dans un environnement bienveillant et stimulant."
+      },
+      "primary": {
+        "name": "Primaire",
+        "desc": "Acquisition des fondamentaux et développement de la curiosité intellectuelle."
+      },
+      "middle": {
+        "name": "Collège",
+        "desc": "Approfondissement des connaissances et préparation à l'autonomie."
+      },
+      "high": {
+        "name": "Lycée",
+        "desc": "Préparation aux examens nationaux et orientation vers l'enseignement supérieur."
+      }
+    },
+    "news": {
+      "title": "Actualités",
+      "subtitle": "Suivez la vie de notre établissement",
+      "date": "Juillet",
+      "item1": {
+        "title": "Résultats du Baccalauréat 2026",
+        "desc": "Félicitations à tous nos lauréats pour leur excellent taux de réussite de 99%."
+      },
+      "item2": {
+        "title": "Journée Portes Ouvertes",
+        "desc": "Venez découvrir notre établissement et rencontrer notre équipe pédagogique."
+      },
+      "item3": {
+        "title": "Inscriptions 2026-2027",
+        "desc": "Les inscriptions pour la rentrée prochaine sont désormais ouvertes."
+      }
+    },
+    "testimonials": {
+      "title": "Témoignages",
+      "subtitle": "Ce que disent les parents et élèves",
+      "item1": {
+        "text": "Un cadre exceptionnel où mon enfant s'épanouit pleinement. Les professeurs sont dévoués et à l'écoute.",
+        "name": "Mme. El Amrani",
+        "role": "Parent d'élève"
+      },
+      "item2": {
+        "text": "Le Lycée Ibn Mandour m'a préparé aux meilleures études supérieures. Une expérience inoubliable.",
+        "name": "Omar B.",
+        "role": "Ancien élève"
+      },
+      "item3": {
+        "text": "Des enseignants passionnés et un suivi personnalisé qui fait toute la différence.",
+        "name": "M. Benali",
+        "role": "Parent d'élève"
+      }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "subtitle": "Nous sommes à votre écoute",
+      "addressLabel": "Adresse",
+      "address": "Avenue Mohammed V, Meknès 50000, Maroc",
+      "phoneLabel": "Téléphone",
+      "phone": "+212 5 35 40 00 00",
+      "emailLabel": "Email",
+      "email": "contact@lycee-ibnmandour.ma",
+      "formName": "Nom complet",
+      "formNamePlaceholder": "Votre nom",
+      "formEmail": "Email",
+      "formEmailPlaceholder": "votre@email.com",
+      "formMessage": "Message",
+      "formMessagePlaceholder": "Votre message...",
+      "formSubmit": "Envoyer le message"
+    },
+    "footer": {
+      "description": "Lycée Ibn Mandour — L'excellence éducative à Meknès depuis 1954.",
+      "quickLinks": "Liens rapides",
+      "contact": "Contact",
+      "follow": "Suivez-nous",
+      "copyright": "© 2026 Lycée Ibn Mandour. Tous droits réservés.",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    }
   }
 }

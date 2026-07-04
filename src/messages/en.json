@@ -12,7 +12,10 @@
     "home": "Home",
     "login": "Login",
     "logout": "Logout",
-    "profile": "Profile"
+    "profile": "Profile",
+    "about": "About",
+    "paths": "Paths",
+    "contact": "Contact"
   },
   "auth": {
     "login": "Login",
@@ -148,5 +151,110 @@
     "upcoming": "Upcoming",
     "past": "Past",
     "ended": "Ended"
+  },
+  "landing": {
+    "header": {
+      "title": "Lycée Ibn Mandour"
+    },
+    "hero": {
+      "badge": "School of Excellence · Meknès",
+      "title": "Lycée Ibn Mandour",
+      "subtitle": "Since 1954, educational excellence in Meknès — an exceptional public school blending tradition and modernity.",
+      "cta": "Student & Parent Portal",
+      "learnMore": "Discover the School"
+    },
+    "stats": {
+      "years": "Years of excellence",
+      "students": "Students educated",
+      "success": "Baccalaureate success rate",
+      "staff": "Qualified teachers"
+    },
+    "about": {
+      "title": "Who Are We?",
+      "text1": "Founded in 1954, Lycée Ibn Mandour is an exceptional public school located in the heart of Meknès. We welcome over 2,000 students from preschool through high school in a rigorous and nurturing learning environment.",
+      "text2": "Our mission is to shape tomorrow's citizens by combining academic excellence, personal growth, and civic values. With a 99% baccalaureate success rate, our school ranks among the best in Morocco."
+    },
+    "paths": {
+      "title": "Our Paths",
+      "subtitle": "Tailored support from preschool to baccalaureate",
+      "preschool": {
+        "name": "Preschool",
+        "desc": "Awakening and socialization in a caring and stimulating environment."
+      },
+      "primary": {
+        "name": "Primary",
+        "desc": "Building foundational skills and developing intellectual curiosity."
+      },
+      "middle": {
+        "name": "Middle School",
+        "desc": "Deepening knowledge and preparing for independence."
+      },
+      "high": {
+        "name": "High School",
+        "desc": "Preparation for national exams and higher education guidance."
+      }
+    },
+    "news": {
+      "title": "News",
+      "subtitle": "Follow our school life",
+      "date": "July",
+      "item1": {
+        "title": "2026 Baccalaureate Results",
+        "desc": "Congratulations to all our graduates for their excellent 99% success rate."
+      },
+      "item2": {
+        "title": "Open House Day",
+        "desc": "Come discover our school and meet our teaching staff."
+      },
+      "item3": {
+        "title": "2026-2027 Enrollment",
+        "desc": "Enrollment for the upcoming school year is now open."
+      }
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What parents and students say",
+      "item1": {
+        "text": "An exceptional environment where my child thrives. The teachers are dedicated and attentive.",
+        "name": "Mrs. El Amrani",
+        "role": "Parent"
+      },
+      "item2": {
+        "text": "Lycée Ibn Mandour prepared me for the best higher education. An unforgettable experience.",
+        "name": "Omar B.",
+        "role": "Alumnus"
+      },
+      "item3": {
+        "text": "Passionate teachers and personalized support that makes all the difference.",
+        "name": "Mr. Benali",
+        "role": "Parent"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "We are here for you",
+      "addressLabel": "Address",
+      "address": "Avenue Mohammed V, Meknès 50000, Morocco",
+      "phoneLabel": "Phone",
+      "phone": "+212 5 35 40 00 00",
+      "emailLabel": "Email",
+      "email": "contact@lycee-ibnmandour.ma",
+      "formName": "Full name",
+      "formNamePlaceholder": "Your name",
+      "formEmail": "Email",
+      "formEmailPlaceholder": "your@email.com",
+      "formMessage": "Message",
+      "formMessagePlaceholder": "Your message...",
+      "formSubmit": "Send Message"
+    },
+    "footer": {
+      "description": "Lycée Ibn Mandour — Educational excellence in Meknès since 1954.",
+      "quickLinks": "Quick Links",
+      "contact": "Contact",
+      "follow": "Follow Us",
+      "copyright": "© 2026 Lycée Ibn Mandour. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
   }
 }
