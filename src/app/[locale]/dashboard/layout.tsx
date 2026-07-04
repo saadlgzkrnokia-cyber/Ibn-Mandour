@@ -1,6 +1,7 @@
 import { auth } from "@/lib/auth"
 import { redirect } from "next/navigation"
 import { DashboardShell } from "@/components/dashboard/shell"
+import { Providers } from "@/components/providers"
 import { prisma } from "@/lib/prisma"
 
 export default async function DashboardLayout({
@@ -18,5 +19,9 @@ export default async function DashboardLayout({
 
   if (!user) redirect("/login")
 
-  return <DashboardShell user={user}>{children}</DashboardShell>
+  return (
+    <Providers>
+      <DashboardShell user={user}>{children}</DashboardShell>
+    </Providers>
+  )
 }
