@@ -169,30 +169,109 @@
       "success": "Baccalaureate success rate",
       "staff": "Qualified teachers"
     },
-    "about": {
-      "title": "Who Are We?",
-      "text1": "Founded in 1954, Lycée Ibn Mandour is an exceptional public school located in the heart of Meknès. We welcome over 2,000 students from preschool through high school in a rigorous and nurturing learning environment.",
-      "text2": "Our mission is to shape tomorrow's citizens by combining academic excellence, personal growth, and civic values. With a 99% baccalaureate success rate, our school ranks among the best in Morocco."
+    "values": {
+      "badge": "OUR VALUES",
+      "title": "We Believe",
+      "subtitle": "Four core principles that guide every aspect of our school community.",
+      "item1": { "name": "Excellence", "desc": "Academic rigor in service of everyone's success." },
+      "item2": { "name": "Integrity", "desc": "Honesty and respect as life principles." },
+      "item3": { "name": "Innovation", "desc": "Modern and creative teaching methods." },
+      "item4": { "name": "Citizenship", "desc": "Shaping engaged and responsible citizens." }
     },
-    "paths": {
-      "title": "Our Paths",
-      "subtitle": "Tailored support from preschool to baccalaureate",
+    "awards": {
+      "prefix": "That's why, for the 3rd consecutive year",
+      "title": "#1 in Meknès",
+      "subtitle": "Best Public High School in the Region",
+      "text": "Lycée Ibn Mandour has been ranked the best public school in the region by the Ministry of National Education, achieving the highest scores in academic excellence, pedagogical supervision, and infrastructure.",
+      "cta": "Read more"
+    },
+    "mission": {
+      "badge": "OUR MISSION",
+      "title": "Shaping tomorrow's citizens",
+      "text1": "Our mission is to inspire transformative learning through meaningful relationships, academic excellence, and unique opportunities. With small class sizes, every student is supported, challenged, and valued.",
+      "text2": "We are committed to creating an environment where every student can reach their full potential, in a rigorous and nurturing learning framework.",
+      "cta": "Learn more"
+    },
+    "honor": {
+      "badge": "OUR HONOR CODE",
+      "title": "Honor as a way of life",
+      "text": "Through our honor code, Lycée Ibn Mandour provides an environment where our community learns to value honesty and respect. Every student and staff member is guided by the belief that honor is a way of life rather than a set of rules to follow.",
+      "cta": "Learn more",
+      "principles": {
+        "1": "Excellence in effort",
+        "2": "Integrity in action",
+        "3": "Respect for others",
+        "4": "Civic responsibility"
+      }
+    },
+    "passions": {
+      "badge": "A WELL-ROUNDED EDUCATION",
+      "title": "Discover Your Passions",
+      "text": "Our students have the opportunity to explore their interests and pursue their academic goals while building diverse skills. We believe students should master a broad range of subjects while having the chance to explore multiple opportunities.",
+      "item1": "Arts & Culture",
+      "item2": "Music & Performance",
+      "item3": "Science & Innovation",
+      "item4": "Sports & Competition"
+    },
+    "sports": {
+      "badge": "SPORTS",
+      "title": "Sports & Competition",
+      "subtitle": "Lycée Ibn Mandour is committed to building strong teams in all sports disciplines.",
+      "text": "With a 72% participation rate among middle and high school students, sports are at the heart of our educational project. Our football, basketball, handball, and athletics teams regularly shine at regional and national competitions.",
+      "cta": "Discover"
+    },
+    "arts": {
+      "badge": "ARTS",
+      "title": "Arts & Creativity",
+      "subtitle": "At Lycée Ibn Mandour, students have the freedom to explore their imagination.",
+      "text": "From primary school onward, our students perform on stage and create thoughtful works of art. Our educators are practicing artists who connect students to the arts community through exhibitions and festivals.",
+      "cta": "Discover"
+    },
+    "academics": {
+      "badge": "ACADEMICS",
+      "title": "Academic Excellence",
+      "subtitle": "We prepare students for higher education by developing critical thinkers and accomplished communicators.",
+      "text": "Our unique college preparatory program, combined with academic rigor and teacher support, gives students the freedom to personalize their experience and achieve their individual goals.",
+      "cta": "Learn more"
+    },
+    "vision": {
+      "badge": "OUR VISION",
+      "title": "Leaders for a changing world",
+      "text": "Lycée Ibn Mandour graduates are leaders who excel in a diverse and ever-changing world. Discover our different educational paths.",
+      "cta": "Learn more"
+    },
+    "divisions": {
       "preschool": {
         "name": "Preschool",
-        "desc": "Awakening and socialization in a caring and stimulating environment."
+        "desc": "Awakening and socialization",
+        "age": "3-5 years",
+        "detail": { "title": "Preschool — A Time of Exploration", "text": "Preschool is a time of exploration where students develop the social and emotional skills needed for success. We accompany each child in discovering their environment.", "cta": "Discover Preschool" }
       },
       "primary": {
         "name": "Primary",
-        "desc": "Building foundational skills and developing intellectual curiosity."
+        "desc": "Fundamentals and curiosity",
+        "age": "6-11 years",
+        "detail": { "title": "Primary — Foundations of Success", "text": "In primary school, students build strong foundations and begin their journey of self-discovery. We offer unique learning opportunities at every stage.", "cta": "Discover Primary" }
       },
       "middle": {
         "name": "Middle School",
-        "desc": "Deepening knowledge and preparing for independence."
+        "desc": "Independence and depth",
+        "age": "12-15 years",
+        "detail": { "title": "Middle School — Building Identity", "text": "The middle school program is designed to give students the freedom to explore their interests while developing the study and organizational skills needed for success.", "cta": "Discover Middle School" }
       },
       "high": {
         "name": "High School",
-        "desc": "Preparation for national exams and higher education guidance."
+        "desc": "Preparing for the future",
+        "age": "16-18 years",
+        "detail": { "title": "High School — Aiming for Excellence", "text": "High school students have the opportunity to explore their interests and pursue their academic goals to prepare for future success in higher education.", "cta": "Discover High School" }
       }
+    },
+    "admission": {
+      "badge": "ADMISSION",
+      "title": "Join Lycée Ibn Mandour",
+      "text": "Enrollment for the 2026-2027 school year is now open. Join an exceptional educational community where every student is known, supported, and inspired to give their best.",
+      "cta1": "Apply Now",
+      "cta2": "Contact Us"
     },
     "news": {
       "title": "News",
@@ -252,6 +331,8 @@
       "quickLinks": "Quick Links",
       "contact": "Contact",
       "follow": "Follow Us",
+      "vision": "Our Vision",
+      "quote": "« Shaping tomorrow's citizens is preparing a better future for all. »",
       "copyright": "© 2026 Lycée Ibn Mandour. All rights reserved.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"

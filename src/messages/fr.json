@@ -169,30 +169,109 @@
       "success": "Réussite au Bac",
       "staff": "Enseignants qualifiés"
     },
-    "about": {
-      "title": "Qui sommes-nous ?",
-      "text1": "Fondé en 1954, le Lycée Ibn Mandour est un établissement public d'exception situé au cœur de Meknès. Nous accueillons plus de 2 000 élèves de la maternelle au lycée, dans un cadre d'apprentissage exigeant et bienveillant.",
-      "text2": "Notre mission est de former les citoyens de demain en conjuguant excellence académique, épanouissement personnel et valeurs citoyennes. Avec un taux de réussite au baccalauréat de 99 %, notre établissement figure parmi les meilleurs lycées du Maroc."
+    "values": {
+      "badge": "NOS VALEURS",
+      "title": "Nous croyons",
+      "subtitle": "Quatre principes fondamentaux qui guident chaque aspect de notre communauté scolaire.",
+      "item1": { "name": "Excellence", "desc": "La rigueur académique au service de la réussite de chacun." },
+      "item2": { "name": "Intégrité", "desc": "L'honnêteté et le respect comme principes de vie." },
+      "item3": { "name": "Innovation", "desc": "Des méthodes pédagogiques modernes et créatives." },
+      "item4": { "name": "Citoyenneté", "desc": "Former des citoyens engagés et responsables." }
     },
-    "paths": {
-      "title": "Nos Parcours",
-      "subtitle": "Un accompagnement sur mesure de la maternelle au baccalauréat",
+    "awards": {
+      "prefix": "C'est pourquoi, pour la 3e année consécutive",
+      "title": "#1 à Meknès",
+      "subtitle": "Meilleur Lycée Public de la Région",
+      "text": "Le Lycée Ibn Mandour a été classé meilleur établissement public de la région par le Ministère de l'Éducation Nationale, obtenant la note maximale dans les catégories d'excellence académique, d'encadrement pédagogique et d'infrastructure.",
+      "cta": "Lire la suite"
+    },
+    "mission": {
+      "badge": "NOTRE MISSION",
+      "title": "Former les citoyens de demain",
+      "text1": "Notre mission est d'inspirer un apprentissage transformateur à travers des relations significatives, l'excellence académique et des opportunités uniques. Avec des classes à effectif réduit, chaque élève est accompagné, soutenu et valorisé.",
+      "text2": "Nous nous engageons à créer un environnement où chaque élève peut développer son plein potentiel, dans un cadre d'apprentissage exigeant et bienveillant.",
+      "cta": "En savoir plus"
+    },
+    "honor": {
+      "badge": "NOTRE CODE D'HONNEUR",
+      "title": "L'honneur comme façon de vivre",
+      "text": "À travers notre code d'honneur, le Lycée Ibn Mandour offre un environnement où notre communauté apprend à valoriser l'honnêteté et le respect. Chaque élève et membre du personnel est guidé par la conviction que l'honneur est une façon de vivre plutôt qu'un ensemble de règles à suivre.",
+      "cta": "En savoir plus",
+      "principles": {
+        "1": "L'Excellence dans l'effort",
+        "2": "L'Intégrité dans l'action",
+        "3": "Le Respect de l'autre",
+        "4": "La Responsabilité citoyenne"
+      }
+    },
+    "passions": {
+      "badge": "UNE ÉDUCATION COMPLÈTE",
+      "title": "Découvrez vos passions",
+      "text": "Nos élèves ont la possibilité d'explorer leurs centres d'intérêt et de poursuivre leurs objectifs académiques tout en développant des compétences variées. Nous croyons que les élèves doivent maîtriser un large éventail de matières tout en ayant la chance d'explorer de multiples opportunités.",
+      "item1": "Arts & Culture",
+      "item2": "Musique & Spectacle",
+      "item3": "Sciences & Innovation",
+      "item4": "Sports & Compétition"
+    },
+    "sports": {
+      "badge": "SPORTS",
+      "title": "Sports & Compétition",
+      "subtitle": "Le Lycée Ibn Mandour est engagé à former des équipes solides dans toutes les disciplines sportives.",
+      "text": "Avec un taux de participation de 72% de nos élèves du collège et lycée, le sport est au cœur de notre projet éducatif. Nos équipes de football, basketball, handball et athlétisme brillent régulièrement aux compétitions régionales et nationales.",
+      "cta": "Découvrir"
+    },
+    "arts": {
+      "badge": "ARTS",
+      "title": "Arts & Créativité",
+      "subtitle": "Au Lycée Ibn Mandour, les élèves ont la liberté d'explorer leur imagination.",
+      "text": "Dès le primaire, nos élèves montent sur scène et créent des œuvres d'art. Nos éducateurs sont des artistes pratiquants qui connectent les élèves à la communauté artistique à travers des expositions et des festivals.",
+      "cta": "Découvrir"
+    },
+    "academics": {
+      "badge": "ACADÉMIQUE",
+      "title": "Excellence Académique",
+      "subtitle": "Nous préparons les élèves à l'enseignement supérieur en formant des penseurs critiques et des communicateurs accomplis.",
+      "text": "Notre programme pré-universitaire unique, combiné à l'exigence académique et au soutien de nos enseignants, offre aux élèves la liberté de personnaliser leur expérience et d'atteindre leurs objectifs individuels.",
+      "cta": "En savoir plus"
+    },
+    "vision": {
+      "badge": "NOTRE VISION",
+      "title": "Des leaders pour un monde en mouvement",
+      "text": "Les diplômés du Lycée Ibn Mandour sont des leaders qui excellent dans un monde diversifié et en constante évolution. Découvrez nos différents parcours éducatifs.",
+      "cta": "En savoir plus"
+    },
+    "divisions": {
       "preschool": {
         "name": "Préscolaire",
-        "desc": "Éveil et socialisation dans un environnement bienveillant et stimulant."
+        "desc": "Éveil et socialisation",
+        "age": "3-5 ans",
+        "detail": { "title": "Préscolaire — Un temps d'exploration", "text": "Le préscolaire est une période d'exploration où les élèves développent les compétences sociales et émotionnelles nécessaires à la réussite. Nous accompagnons chaque enfant dans la découverte de son environnement.", "cta": "Découvrir le préscolaire" }
       },
       "primary": {
         "name": "Primaire",
-        "desc": "Acquisition des fondamentaux et développement de la curiosité intellectuelle."
+        "desc": "Fondamentaux et curiosité",
+        "age": "6-11 ans",
+        "detail": { "title": "Primaire — Les fondations de la réussite", "text": "Au primaire, les élèves acquièrent des bases solides et commencent leur voyage de découverte personnelle. Nous offrons des opportunités uniques d'apprentissage à chaque étape.", "cta": "Découvrir le primaire" }
       },
       "middle": {
         "name": "Collège",
-        "desc": "Approfondissement des connaissances et préparation à l'autonomie."
+        "desc": "Autonomie et approfondissement",
+        "age": "12-15 ans",
+        "detail": { "title": "Collège — Développer son identité", "text": "Le programme du collège est conçu pour offrir aux élèves la liberté d'explorer leurs intérêts tout en développant les compétences d'organisation et de travail nécessaires à la réussite.", "cta": "Découvrir le collège" }
       },
       "high": {
         "name": "Lycée",
-        "desc": "Préparation aux examens nationaux et orientation vers l'enseignement supérieur."
+        "desc": "Préparation à l'avenir",
+        "age": "16-18 ans",
+        "detail": { "title": "Lycée — Viser l'excellence", "text": "Les élèves du lycée ont l'opportunité d'explorer leurs intérêts et de poursuivre leurs objectifs académiques pour préparer leur réussite future dans l'enseignement supérieur.", "cta": "Découvrir le lycée" }
       }
+    },
+    "admission": {
+      "badge": "INSCRIPTIONS",
+      "title": "Rejoignez Lycée Ibn Mandour",
+      "text": "Les inscriptions pour l'année scolaire 2026-2027 sont ouvertes. Rejoignez une communauté éducative d'exception où chaque élève est connu, soutenu et inspiré à donner le meilleur de lui-même.",
+      "cta1": "S'inscrire",
+      "cta2": "Nous contacter"
     },
     "news": {
       "title": "Actualités",
@@ -252,6 +331,8 @@
       "quickLinks": "Liens rapides",
       "contact": "Contact",
       "follow": "Suivez-nous",
+      "vision": "Notre Vision",
+      "quote": "« Former les citoyens de demain, c'est préparer un avenir meilleur pour tous. »",
       "copyright": "© 2026 Lycée Ibn Mandour. Tous droits réservés.",
       "privacy": "Politique de confidentialité",
       "terms": "Conditions d'utilisation"
